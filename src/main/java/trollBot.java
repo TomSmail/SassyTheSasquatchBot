@@ -15,7 +15,7 @@ public class trollBot extends ListenerAdapter {
         JDA bot = null;
 
         try {
-            bot = JDABuilder.createDefault("OTk4OTY4MTY2MDQ4ODc0NjE3.Gk9OmI.O2P1FnEpn1eLgTFmT0_QZbkhtaRPvk55Oev88U")
+            bot = JDABuilder.createDefault("")
                     .addEventListeners(new botListeners())
                     .build().awaitReady();
         } catch (InterruptedException e) {
